@@ -1,0 +1,6 @@
+[QC2020-01-03 22:34:56] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2020-01-03 22:35:15] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4586] connected
+[QC2020-01-03 22:42:25] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2020-01-03 22:42:32] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4882] connected
+[QC2020-01-03 22:42:38] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4919] connected
+[QC2020-01-03 22:43:06] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4956] connected

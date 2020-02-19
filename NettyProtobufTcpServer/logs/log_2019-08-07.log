@@ -1,0 +1,2 @@
+[QC2019-08-07 00:15:33] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2019-08-07 00:15:41] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:13718] connected

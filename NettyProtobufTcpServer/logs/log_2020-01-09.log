@@ -1,0 +1,30 @@
+[QC2020-01-09 22:42:00] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2020-01-09 23:29:41] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:3743] connected
+[QC2020-01-09 23:30:24] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:3819] connected
+[QC2020-01-09 23:30:56] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:3854] connected
+[QC2020-01-09 23:31:59] INFO [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:3889] connected
+[QC2020-01-09 23:43:51] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2020-01-09 23:44:14] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4040] connected
+[QC2020-01-09 23:46:36] INFO [nioEventLoopGroup-3-2] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4077] connected
+[QC2020-01-09 23:47:23] INFO [nioEventLoopGroup-3-3] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4112] connected
+[QC2020-01-09 23:48:55] INFO [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4155] connected
+[QC2020-01-09 23:49:40] ERROR [nioEventLoopGroup-3-4] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.exceptionCaught(70) | handle packet from [005056fffec00008-000007d4-00000004-d6ecd3ed705e897b-58b5af93] failed!
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source)
+	at sun.nio.ch.IOUtil.read(Unknown Source)
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1100)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:367)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:118)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:610)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:551)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:465)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:437)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:873)
+	at io.netty.util.concurrent.DefaultThreadFactory$DefaultRunnableDecorator.run(DefaultThreadFactory.java:144)
+	at java.lang.Thread.run(Unknown Source)
+[QC2020-01-09 23:50:00] INFO [main] cn.xiaosheng996.NettyProtobufTcpServer.NettyTcpServer.start(56) | Netty Tcp Server started..
+[QC2020-01-09 23:50:27] INFO [nioEventLoopGroup-3-1] cn.xiaosheng996.NettyProtobufTcpServer.ServerHandler.channelActive(33) | [/192.168.1.2:4233] connected

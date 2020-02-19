@@ -1,0 +1,12 @@
+package protoFiles;
+
+option java_package = "proto";
+option java_outer_classname = "AProto";
+
+//请求登录
+message GetCFromBReq_1001{
+	optional int32 a = 1;
+}
+message GetCFromBResp_1001{
+	optional int32 c = 1;
+}
